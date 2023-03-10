@@ -1,2 +1,0 @@
-#!/bin/bash
-file -b /tmp/iamafile | awk -F ',' '{print "/tmp/iamafile: ELF 64-bit LSB shared object,"$2","$3","$4","$5","$6}'
